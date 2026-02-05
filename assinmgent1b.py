@@ -1,3 +1,4 @@
+# 2. Find the area and perimeter of a triangle whose length is 48cm and width is 25cm
 length = 48
 width = 25
 area = length * width

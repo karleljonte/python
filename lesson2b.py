@@ -1,21 +1,18 @@
-# Python Data Types
-# String - It is a series of characters that are inside of quotes
-name = "Joseph Kainembuga"
-print(name)
+#Tuple
+# A tuple is an immutable type of a list ( it cannot change)
+# to introduce a tuple we use brackets
 
-print(type(name))
+counties = ("Nairobi", "Mombasa", "Nakuru", "Eldoret", "Kajiado", "Kisii")
 
-# Numeric
-# Int - This indicate  anumer in pyhton. For an integer, we don't use quotes
-age = 39
-print("The age of aperson is: ", age)
-print(type(age))
+print(counties)
+print(type(counties))
 
-# float - This is a number with a decimal
-coordinates = 67.6767
-print("tje coordinates are: ", coordinates)
-print(type(coordinates))
+# Slicing of tuples
+print(counties[3:])
 
+# Accesing item of a tuple using indexes
+print(counties[4])
 
-
-# research and come up with example of a complex data type
+# Note below will generate an error
+counties.append(machakos)
+print(counties)
