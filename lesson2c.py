@@ -20,9 +20,17 @@ print(Phonebook["Benson"])
 player = {
     "Name": "Messi",
     "age": 40,
-    "teams": ["PSG", "Barcelona", "Argentina"]
-}
+    "teams": ["PSG", "Barcelona", "Argentina"],
+    "more" : {
+        "children" : 3,
+        "Residence" : "US",
+        "phone" : (2547272936283, 25482638263, 2456171682)
+    }
+    }
+
 # second club
 print(player["teams"][1])
+
+print(player["more"]["phone"][1])
 
 # research on if ... else statements in pytho

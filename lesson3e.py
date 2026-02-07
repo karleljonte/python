@@ -1,0 +1,15 @@
+# Below is a grading system based on what a student has gottenmarks
+marks = int(input("Enter student marks: "))
+# print("The enterd marks is", marks)
+if marks > 0 and marks < 30:
+    print("Below average")
+elif marks >= 30 and marks < 40 :
+    print("Average")
+elif marks >= 40 and marks < 70 :
+    print("above average")
+elif marks >= 40 and marks < 70 :
+    print("Above average")
+elif marks >= 70 and marks <= 100:
+    print("Excelent")
+else :
+    print("Invalid input")
