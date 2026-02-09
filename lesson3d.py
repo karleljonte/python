@@ -1,6 +1,6 @@
 # if...elif....else statment
 # this statement is used to evaluate multiple conditons and if a condition is met the program ends.
-number = 0
+number = -5
 
 
 if number > 0 :

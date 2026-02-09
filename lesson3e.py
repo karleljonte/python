@@ -1,4 +1,4 @@
-# Below is a grading system based on what a student has gottenmarks
+# Below is a grading system based on what a student has gotten marks
 marks = int(input("Enter student marks: "))
 # print("The enterd marks is", marks)
 if marks > 0 and marks < 30:

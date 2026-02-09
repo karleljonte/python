@@ -1,5 +1,5 @@
-# Pyhton lists
-# Alist is a collection of items that ordered in a certain way.
+# Python lists
+# A list is a collection of items that ordered in a certain way.
 # A list is introduced by the use of the square brackets 
 # The items of a list are stored inside of indexes. N ote: In programming we start counting from index Zero (0). bmw, benze, haince...
 # A list is mutable i.  the contents of a list can changed
